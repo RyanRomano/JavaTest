@@ -9,7 +9,7 @@ public class Hello {
 	public static void howBadDidIDo(double number) {
 		if (number > 4)
 		{
-			String toPrint = "I fucked up ";
+			String toPrint = "I goofed up ";
 			toPrint = toPrint + squareNumber(number);
 			toPrint = toPrint + "X";
 			System.out.println(toPrint);
