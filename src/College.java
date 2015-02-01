@@ -1,14 +1,14 @@
 /*
- This program prompts for and stores user input into variables, 
+ This program prompts for and stores user input into variables,
  and then uses those variables to fill an ad-lib
- style paragraph with a personal message and 
+ style paragraph with a personal message and
  prints to console
 
-Issues - When entering input for college, 
-Rowan University evaluates as two inputs. 
-"I'm enjoying my time at Rowan, though 
+Issues - When entering input for college,
+Rowan University evaluates as two inputs.
+"I'm enjoying my time at Rowan, though
 I miss my dog University very much!"
-And does not prompt user to enter a value for 
+And does not prompt user to enter a value for
 their dog's name.
 
 Enter your name: Ryan
@@ -18,8 +18,8 @@ Enter your dog's name: Stanley
 Hello, my name is Ryan and I am 24 years
 old. I'm enjoying my time at Rowan, though
 I miss my dog Stanley very much!
- * 
- * 
+ *
+ *
  */
 
 
