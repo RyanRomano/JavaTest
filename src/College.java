@@ -32,28 +32,27 @@ public class College {
 
 		// Creating a scanner to fetch the user input
 		Scanner scanner = new Scanner( System.in );
-		
+
 		// calling scanner.next to get the user NAME input
 		System.out.print("Enter your name: ");
-		String nameInput = scanner.next();
-		
+		String nameInput = scanner.nextLine();
+
 		// calling scanner.next to get the user AGE input
 		System.out.print("Enter your age: ");
-		String ageInput = scanner.next();
-		
+		String ageInput = scanner.nextLine();
+
 		// calling scanner.next to get the user COLLEGE input
 		System.out.print("Enter your college: ");
-		String collegeInput = scanner.next();
-		
+		String collegeInput = scanner.nextLine();
+
 		// calling scanner.next to get the user DOG NAME input
 		System.out.print("Enter your dogs name: ");
-		String dogInput = scanner.next();
-	
+		String dogInput = scanner.nextLine();
+
 		// Takes stored user input strings and injects them into message string.
-		System.out.println("Hello, my name is " + nameInput 
-				+ " and I am " + ageInput + " years\nold. I'm enjoying my time at " 
+		System.out.println("Hello, my name is " + nameInput
+				+ " and I am " + ageInput + " years\nold. I'm enjoying my time at "
 				+ collegeInput + ", though\nI miss my dog " + dogInput + " very much!");
-	
 	}
 
 }
